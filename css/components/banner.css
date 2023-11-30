@@ -1,0 +1,25 @@
+.banner {
+    /* 1. Set a background image */
+    background-image: url(https://img.freepik.com/photos-gratuite/lumiere-spectrale-illumine-pivoines-couleur-bleu-vif-transparent-fleur-abstraite-art-generative-ai_91128-2187.jpg?w=2000&t=st=1700207899~exp=1700208499~hmac=86996f2f3d6e1dace27fa0ae3cca635e936ca693a7a6776a70fd0ede5b5e5159);   
+    /* 2. Make the background image cover the banner div */
+    background-size: cover;   
+    height: 850px;
+    /* 3. Center the image */
+    background-position: center;
+}
+
+.banner h1 {
+    color: rgb(5, 74, 104);
+    font-size: 70px;
+    text-align: center;
+    margin-top: 10px ;
+}
+
+.banner h2 {
+    color: rgb(5, 74, 104) ;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px ;
+
+ }
+    

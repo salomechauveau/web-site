@@ -1,0 +1,125 @@
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/cards.css");
+@import url("components/navbar.css");
+
+
+
+body {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    /* Ajout d'une direction de colonne pour empiler les éléments verticalement */
+}
+
+h1,h2,h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2 {
+    color: #5F3C32;
+}
+
+h3 {
+    color: antiquewhite;
+
+
+}
+
+
+.image-scroll-container {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.image-scroll-container img {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    display: inline-block;
+    animation: scrollImages 5s linear infinite;
+}
+
+@keyframes scrollImages {
+    100% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+h4 {
+    color: rgb(29, 62, 87);
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+
+a {
+    background-color: rgb(5, 74, 104);
+    color: aliceblue;
+    font-size: 28px;
+    padding: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 6px;
+    box-shadow: 4px 4px rgba(250, 235, 215, 0.491);
+    text-align: center;
+    font-family: initial;
+    text-decoration-line: none;
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+b{
+    color: aliceblue;
+    font-size: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 0%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-line: none;
+    display: block;
+    margin: 5px ;
+    max-width: 100px;
+    margin-left: 350px;
+}
+
+
+
+.container {
+    max-width: 40%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+footer {
+    background-color: antiquewhite;
+    color: white;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    margin: 0 15px;
+}
+
+.social-icons img {
+    width: 40px; /* Ajustez la taille des logos selon vos besoins */
+    height: 40px;
+    border-radius: 17%;
+}

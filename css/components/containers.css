@@ -1,0 +1,10 @@
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: 200px; /* Remplacez 200px par la largeur souhaitée pour toutes les images */
+    height: 200px;
+    object-fit: cover;
+    margin-right: 10px; /* Ajoutez une marge entre les images si nécessaire */
+}

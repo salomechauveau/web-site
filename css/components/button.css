@@ -1,0 +1,22 @@
+.menu {
+    background-color: rgba(5, 33, 55, 0.976) ; /* Couleur de fond du menu */
+    padding: 10px 0; /* Espacement interne du menu */
+}
+
+.menu ul {
+    list-style: none; /* Supprime les puces de la liste */
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block; /* Affiche les éléments de la liste en ligne */
+    margin-right: 20px; /* Espacement entre les éléments du menu */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Couleur du texte du menu */
+    font-weight: bold; /* Gras pour le texte du menu */
+    font-size: 16px; /* Taille du texte du menu */
+}
